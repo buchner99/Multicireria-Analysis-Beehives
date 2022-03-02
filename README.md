@@ -53,8 +53,7 @@ There are several criteria that need to be considered when choosing a location f
       <br> -> geodaten-sachsen (dresden.zip <a href="https://www.geodaten.sachsen.de/downloadbereich-verwaltungsgrenzen-4344.html">source</a>)</li></ul>
 
 <h2>Execution</h2>
-<br>
-API-Script:
+<b>API-Script:</b>
 <br>
 Clone this respository to your computer so you have all the data and scripts available.
 <br>
@@ -69,15 +68,15 @@ after this step you will have all the needed data available:
 - srtm_39_01.tif
 <br>
 Open all these layers in your QGIS Software.
-<br>
+<br><br>
 There are two possible ways of executing this model:
-<br>
-1. Using the given model (model_multicriteria.model3)
+<br><br>
+1. Using the given <b>model</b> (model_multicriteria.model3)
 - gives easy and visual overview of the process
 - suitable for less experienced users
-<br>
-2. Using the given script (bees.py)
+<br><br>
+2. Using the given <b>script</b> (bees.py)
 - fast processing
 - overview over commands
-<br>
+<br><br>
 Both ways are available in the QGIS Toolbox. 
