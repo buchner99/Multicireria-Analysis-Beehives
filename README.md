@@ -59,24 +59,28 @@ Clone this respository to your computer so you have all the data and scripts ava
 <br>
 The given API script (api_bees.bat) downloads a part of the needed data. The script gives informations on how to change the study area that this model is being tested on. The containing bounding-box downloads the data for the city of dresden.
 <br>
-after this step you will have all the needed data available:
-- disruptions_2021.geojson
-- food_2021.geojson
-- water_2021.geojson
-- windbreak_2021.geojson
-- desden.shp
-- srtm_39_01.tif
+after this step you will have all the needed data available:<br>
+- disruptions_2021.geojson<br>
+- food_2021.geojson<br>
+- water_2021.geojson<br>
+- windbreak_2021.geojson<br>
+- desden.shp<br>
+- srtm_39_01.tif<br>
 <br>
 Open all these layers in your QGIS Software.
 <br><br>
 There are two possible ways of executing this model:
 <br><br>
 1. Using the given <b>model</b> (model_multicriteria.model3)
-- gives easy and visual overview of the process
-- suitable for less experienced users
-<br><br>
+- gives easy and visual overview of the process<br>
+- suitable for less experienced users<br>
+<br>
 2. Using the given <b>script</b> (bees.py)
-- fast processing
-- overview over commands
+- fast processing<br>
+- overview over commands<br>
 <br><br>
-Both ways are available in the QGIS Toolbox. 
+Both ways are available in the QGIS Toolbox.
+<br><br>
+<h2>Visualization</h2>
+  
+  We found the easiest way to visualize the results is using the singleband-pseudocolour option. There you can choose a colour scheme and create 10 classes using a quantile classification. To build the classes click classify. Know your data should be easier to analyse. The higher number are showing a higher suitability for beehives.
